@@ -1,0 +1,64 @@
+#advance{
+    background-color: #ddd;
+    color: red;
+    padding: 0 0 0 10px;
+    position: absolute;
+    width: 98%;
+    top: 50px;
+}
+.form{
+    margin-top: 150px;
+}
+#find{
+    font-size: medium;
+    margin-bottom: 20px;
+}
+.field{
+    width: 95%;
+    margin: 5px;
+    border-radius: 8px;
+    padding: 5px;
+}
+.separator{
+    padding: 10px;
+}
+.submit{
+    padding: 10px;
+    background-color: green;
+    color: black;
+    margin: 10px;
+    border-radius: 8px;
+}
+.submit:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+}
+div.google{
+    
+    position: absolute;
+    right: 0;
+    top:18px;
+    width: 200px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+div.google a{
+    padding: 10px;
+    margin: 5px;
+    background-color: green;
+    border-radius: 8px;
+    text-decoration: none;
+}
+div.google a:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+}
+.number{
+    border: 2px solid black;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 8px;
+}

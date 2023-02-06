@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="advance.css">
+    <title>Google Advance Search</title>
+</head>
+<body>
+    <div class="google">
+        <a href="index.html">Google Search</a>
+    </div>
+    <div id="advance"><h2>Advance Search</h2></div>
+    <div class="form">
+   <form action="https://www.google.com.ua/advanced_search?hl=gd-US&authuser=0" name="f" method="get">
+    <div id="find">Find pages with...</div>
+    <div>
+        <label for="field1">all these words:</label><br>
+        <input type="text" id="field1" name="as_q" class="field">
+    </div><br>
+    <div>
+        <label for="field2">this exact word or phrase:</label><br>
+        <input type="text" id="field2" name="as_epq" class="field">
+    </div><br>
+    <div>
+        <label for="field3">any of these words:</label><br>
+        <input type="text" id="field3" name="as_oq" class="field">
+    </div><br>
+    <div>
+        <label for="four">none of these words:</label><br>
+        <input type="text" id="four" name="as_eq" class="field">
+    </div>
+    <div><label for="field5">numbers ranging from:</label><br>
+         <input type="text" id="field5" name="as_nlo" class="number">
+         <span class="separator">to</span>
+         <input type="text" name="as_nhi" class="number">
+
+    </div>
+    <div>
+        <input type="submit" value="Advance search" class="submit">
+    </div>
+   </form></div>
+</body>
+</html>
